@@ -1,0 +1,12 @@
+{
+  "name": "conconsole",
+  "version": "0.9.0",
+  "main": "dist/index.min.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "uglifyjs index.js --compress --mangle --output ./dist/index.min.js"
+  },
+  "devDependencies": {
+    "uglify-js": "^3.10.0"
+  }
+}
