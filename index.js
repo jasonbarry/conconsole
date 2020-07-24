@@ -1,5 +1,5 @@
-module.exports = function Conconsole(options) {
-  
+module.exports = function Condsole(options) {
+
   var noop = {}
   Object.keys(console).forEach(function(method) {
     noop[method] = function(){}
