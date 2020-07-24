@@ -1,4 +1,4 @@
-module.exports = function Condsole(options) {
+module.exports = function(options) {
 
   var noop = {}
   Object.keys(console).forEach(function(method) {
